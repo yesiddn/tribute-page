@@ -1,0 +1,12 @@
+:root {
+  --just-with: #FFFFFF;
+  --light-gray: #E6E6E6;
+  --sea-water: #5FB8CC;
+  --pink: #F67CAB;
+  --warm-black: #3A3A3A;
+}
+
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+
