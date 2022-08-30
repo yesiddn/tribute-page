@@ -1,3 +1,6 @@
+/* MOBILE */
+/* MINIMUM SIZE: 320px */
+
 :root {
   --just-with: #FFFFFF;
   --light-gray: #E6E6E6;
@@ -10,6 +13,7 @@ html {
   font-family: 'Fira Sans', sans-serif;
 }
 
+/* HEADER */
 .intro {
   position: relative;
   width: 100%;
