@@ -54,7 +54,7 @@ html {
 
 /* BODY INTEGRANTES */
 main {
-  padding: 40px 24px;
+  padding: var(--spacing-07) 24px 0;
   background-color: var(--secondary-color);
 }
 
@@ -83,6 +83,7 @@ h4 {
 .img--icon {
   width: 100px;
   height: 100px;
+  margin-right: var(--spacing-04);
   border-radius: 50%;
 }
 
@@ -93,5 +94,17 @@ h4 {
 .img img {
   width: 222px;
   height: 222px;
+  margin-bottom: var(--spacing-07);
   border-radius: 15px;
+}
+
+/* MEMBERS */
+.members__person {
+  margin: 0 0 var(--spacing-06);
+}
+
+.members__person__title {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: var(--spacing-05);
 }
