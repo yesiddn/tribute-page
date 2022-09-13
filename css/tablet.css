@@ -3,7 +3,7 @@
 
 /* HEADER */
 .intro {
-  background-image: url(../images/inicio_desktop.jpg);
+  background-image: url(../src/images/inicio_desktop.jpg);
 }
 
 .intro__title {
