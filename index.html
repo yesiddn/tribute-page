@@ -33,6 +33,7 @@
   <!-- doc -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)"><link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
   <title>Twenty One Pilots - Tribute page</title>
 
   <!-- Primary Meta Tags -->
@@ -49,39 +50,53 @@
   </header>
 
   <main>
-    <section>
+    <section class="members">
       <h2>Integrantes</h2>
 
-      <section>
-        <div>
-          <img src="" alt="">
-          <h4>Tyler Joseph</h4>
-          <p>Rapero, cantante, músico, compositor y vocalista de Twenty One Pilots.</p>
+      <section class="members__person">
+        <div class="members__person__title">
+          <img class="img--icon" src="./src/images/tyler.jfif" alt="Tyler Joseph. Cantante del duo Twenty One Pilots">
+
+          <div>
+            <h4>Tyler Joseph</h4>
+            <p>Rapero, cantante, músico, compositor y vocalista de Twenty One Pilots.</p>
+          </div>
         </div>
 
         <p>Después de ver a un compositor en el club High Street, rechazó una beca de baloncesto de la Universidad de Otterbein, y comenzó a tocar música después de encontrar un viejo teclado en su armario (un regalo de Navidad de su madre), aquí comienza su carrera.</p>
       </section>
-      <section>
-        <div>
-          <img src="" alt="">
-          <h4>Josh Dun</h4>
-          <p>Interpreta la bateria y otros instrumentos para el dúo musical Twenty One Pilots.</p>
+      <section class="members__person">
+        <div class="members__person__title">
+          <img class="img--icon" src="./src/images/josh.jpeg" alt="Josh Dun. Baterista del duo Twenty One Pilots">
+          <div>
+            <h4>Josh Dun</h4>
+            <p>Interpreta la bateria y otros instrumentos para el dúo musical Twenty One Pilots.</p>
+          </div>
         </div>
 
         <p>Antes de ser parte de Twenty One Pilots formó parte termporalmente de House of Heroes luego de que el exbaterista, Colin Rigsby, se tomase un descanso para poder pasar más tiempo con su familia. Fue recomendado a la banda por el propio Rigsby.</p>
       </section>
 
-      <figure>
-        <img src="" alt="">
+      <figure class="img">
+        <img src="./src/images/duo.jfif" alt="Bnada músical Twenty One Pilots">
       </figure>
     </section>
   </main>
 </body>
 
 <footer>
-  <p>@yesid_dn</p>
-  <p>Made with 🤍</p>
-  <p>Code</p>
+  <div class="profile">
+    <p class="profile__name">@yesid_dn</p>
+    <p>Made with 🤍</p>
+    <a href="#">Code<span class="icon icon--github"></span></a>
+  </div>
+
+  <div class="">
+    <a class="icon icon--twitter" href="#"></a>
+    <a class="icon icon--github" href="#"></a>
+    <a class="icon icon--linkedin" href="#"></a>
+    <a class="icon icon--discord" href="#"></a>
+  </div>
 </footer>
 
 </html>

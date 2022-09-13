@@ -1,0 +1,11 @@
+/* TABLET */
+/* MINIMUM SIZE: 768px */
+
+/* HEADER */
+.intro {
+  background-image: url(../src/images/inicio_desktop.jpg);
+}
+
+.intro__title {
+  font-size: 52px;
+}
