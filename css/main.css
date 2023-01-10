@@ -32,13 +32,14 @@ html {
   font-family: var(--font-one);
   font-size: var(--spacing-04);
   font-weight: 400;
+  color: var(--primary-color);
 }
 
 /* HEADER */
 .intro {
   display: flex;
   width: 100%;
-  height: 530px;
+  min-height: 100vh;
   align-items: center;
   background-image: url(../src/images/inicio_mobile.jpg);
   background-position: center;
@@ -63,7 +64,7 @@ html {
 
 /* BODY INTEGRANTES */
 main {
-  padding: var(--spacing-07) 24px 0;
+  padding: var(--spacing-07) var(--spacing-05) 0;
   background-color: var(--secondary-color);
 }
 
@@ -72,6 +73,7 @@ main {
 h1, h2, h3, h4 {
   font-family: var(--font-two);
   text-align: center;
+  color: #000000;
 }
 h2 {
   margin: 0 0 var(--spacing-07); /* elimina todos los margin y agrega un margin bottom */
@@ -109,12 +111,14 @@ h4 {
 
 /* MEMBERS */
 .members__person {
+  margin: 0 auto;
   margin-bottom: var(--spacing-06);
+  max-width: 460px;
 }
 
 .members__person__title {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 116px 1fr;
   margin-bottom: var(--spacing-05);
 }
 
@@ -143,6 +147,8 @@ footer {
 
 footer .profile a {
   display: flex;
+  width: 120px;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   text-decoration: none;
