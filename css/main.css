@@ -66,6 +66,8 @@ footer {
 
 footer .profile a {
   display: flex;
+  width: 120px;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   text-decoration: none;
