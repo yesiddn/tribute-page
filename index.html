@@ -5,6 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Twenty One Pilots">
+  <meta property="og:description" content="Está es una página de tributo de la banda estadounidense Twenty
+      One Pilots, creada como parte de un portafolio personal. Aquí conocerás
+      una parte de la historia de la banda, sobre su discografía y su fandom. ">
+  <meta property="og:image" content="">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Twenty One Pilots">
+  <meta property="twitter:description" content="Está es una página de tributo de la banda estadounidense Twenty
+      One Pilots, creada como parte de un portafolio personal. Aquí conocerás
+      una parte de la historia de la banda, sobre su discografía y su fandom. ">
+  <meta property="twitter:image" content="">
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +29,19 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap"
     rel="stylesheet">
-    
+
   <!-- doc -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)"><link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
   <title>Twenty One Pilots - Tribute page</title>
+
+  <!-- Primary Meta Tags -->
+  <title>Twenty One Pilots</title>
+  <meta name="title" content="Twenty One Pilots">
+  <meta name="description" content="Está es una página de tributo de la banda estadounidense Twenty
+      One Pilots, creada como parte de un portafolio personal. Aquí conocerás
+      una parte de la historia de la banda, sobre su discografía y su fandom.">
 </head>
 
 <body>
@@ -29,29 +53,32 @@
     <section class="members">
       <h2>Integrantes</h2>
 
-      <section class="members__person">
-        <div class="members__person__title">
-          <img class="img--icon" src="./src/images/tyler.jfif" alt="Tyler Joseph. Cantante del duo Twenty One Pilots">
-
-          <div>
-            <h4>Tyler Joseph</h4>
-            <p>Rapero, cantante, músico, compositor y vocalista de Twenty One Pilots.</p>
+      <div>
+        <article class="members__person" id="tyler">
+          <div class="members__person__title">
+            <img class="img--icon" src="./src/images/tyler.jfif" alt="Tyler Joseph. Cantante del duo Twenty One Pilots">
+        
+            <div>
+              <h4>Tyler Joseph</h4>
+              <p>Rapero, cantante, músico, compositor y vocalista de Twenty One Pilots.</p>
+            </div>
           </div>
-        </div>
-
-        <p>Después de ver a un compositor en el club High Street, rechazó una beca de baloncesto de la Universidad de Otterbein, y comenzó a tocar música después de encontrar un viejo teclado en su armario (un regalo de Navidad de su madre), aquí comienza su carrera.</p>
-      </section>
-      <section class="members__person">
-        <div class="members__person__title">
-          <img class="img--icon" src="./src/images/josh.jpeg" alt="Josh Dun. Baterista del duo Twenty One Pilots">
-          <div>
-            <h4>Josh Dun</h4>
-            <p>Interpreta la bateria y otros instrumentos para el dúo musical Twenty One Pilots.</p>
+        
+          <p>Después de ver a un compositor en el club High Street, rechazó una beca de baloncesto de la Universidad de Otterbein, y comenzó a tocar música después de encontrar un viejo teclado en su armario (un regalo de Navidad de su madre), aquí comienza su carrera.</p>
+        </article>
+        
+        <article class="members__person" id="josh">
+          <div class="members__person__title">
+            <img class="img--icon" src="./src/images/josh.jpeg" alt="Josh Dun. Baterista del duo Twenty One Pilots">
+            <div>
+              <h4>Josh Dun</h4>
+              <p>Interpreta la bateria y otros instrumentos para el dúo musical Twenty One Pilots.</p>
+            </div>
           </div>
-        </div>
-
-        <p>Antes de ser parte de Twenty One Pilots formó parte termporalmente de House of Heroes luego de que el exbaterista, Colin Rigsby, se tomase un descanso para poder pasar más tiempo con su familia. Fue recomendado a la banda por el propio Rigsby.</p>
-      </section>
+        
+          <p>Antes de ser parte de Twenty One Pilots formó parte termporalmente de House of Heroes luego de que el exbaterista, Colin Rigsby, se tomase un descanso para poder pasar más tiempo con su familia. Fue recomendado a la banda por el propio Rigsby.</p>
+        </article>
+      </div>
 
       <figure class="img">
         <img src="./src/images/duo.jfif" alt="Bnada músical Twenty One Pilots">

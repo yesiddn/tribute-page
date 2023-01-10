@@ -9,3 +9,38 @@
 .intro__title {
   font-size: 52px;
 }
+
+/* BODY INTEGRANTES */
+main {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* IMAGES */
+.img--icon {
+  width: 120px;
+  height: 120px;
+}
+
+.img img {
+  width: 322px;
+  height: 322px;
+}
+
+/* MEMBERS */
+.members>div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.members__person__title {
+  grid-template-columns: 136px 1fr;
+}
+
+#tyler {
+  margin-right: 16px;
+}
+
+#josh {
+  margin-left: 16px;
+}
