@@ -41,7 +41,7 @@ html {
   width: 100%;
   min-height: 100vh;
   align-items: center;
-  background-image: url(../src/images/inicio_mobile.jpg);
+  background-image: url(../images/inicio_mobile.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,12 +60,6 @@ html {
 .intro__title span {
   display: block;
   color: var(--tertiary-color);
-}
-
-/* BODY INTEGRANTES */
-main {
-  padding: var(--spacing-07) var(--spacing-05) 0;
-  background-color: var(--secondary-color);
 }
 
 /* TITLES */
@@ -105,11 +99,15 @@ h4 {
 .img img {
   width: 222px;
   height: 222px;
-  margin-bottom: var(--spacing-07);
   border-radius: 15px;
 }
 
 /* MEMBERS */
+.members {
+  padding: var(--spacing-07) var(--spacing-05);
+  background-color: var(--secondary-color);
+}
+
 .members__person {
   margin: 0 auto;
   margin-bottom: var(--spacing-06);
