@@ -66,20 +66,26 @@ html {
 
 h1, h2, h3, h4 {
   font-family: var(--font-two);
+  font-weight: 600;
   text-align: center;
   color: #000000;
 }
 h2 {
   margin: 0 0 var(--spacing-07); /* elimina todos los margin y agrega un margin bottom */
   font-size: var(--spacing-06);
-  font-weight: 600;
   line-height: 38px;
+}
+
+h3 {
+  margin: 0 0 var(--spacing-06); /* elimina todos los margin y agrega un margin bottom */
+  font-size: var(--spacing-05);
+  line-height: 28px;
+  text-align: start;
 }
 
 h4 {
   margin: 0 0 var(--spacing-05); /* elimina todos los margin y agrega un margin bottom */
   font-size: 20px;
-  font-weight: 600;
   line-height: var(--spacing-05);
   text-align: start;
 }
@@ -92,16 +98,30 @@ h4 {
   border-radius: 50%;
 }
 
-.img {
+.img-figure {
+  margin: var(--spacing-05) 0;
   text-align: center;
 }
 
-.img img {
+.img--square img {
   width: 222px;
   height: 222px;
   border-radius: 15px;
 }
 
+.img--mid-rectangle img {
+  width: 230px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.img--out {
+  margin: 0;
+}
+
+.img--end {
+  margin-bottom: 0;
+}
 /* MEMBERS */
 .members {
   padding: var(--spacing-07) var(--spacing-05);
@@ -121,7 +141,10 @@ h4 {
 }
 
 /* CARRERA ARTISTICAS */
-
+.carrera-artistica {
+  padding: var(--spacing-07) var(--spacing-05);
+  background-color: var(--tertiary-color);
+}
 
 /* SHORT STORY */
 
