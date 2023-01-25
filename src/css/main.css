@@ -78,6 +78,7 @@ h2 {
 
 h3 {
   margin: 0 0 var(--spacing-06); /* elimina todos los margin y agrega un margin bottom */
+  padding-left: var(--spacing-06);
   font-size: var(--spacing-05);
   line-height: 28px;
   text-align: start;
@@ -115,6 +116,12 @@ h4 {
   border-radius: 15px;
 }
 
+.img--rectangle img {
+  width: 100%;
+  /* height: 150px; */
+  border-radius: 15px;
+}
+
 .img--out {
   margin: 0;
 }
@@ -147,7 +154,9 @@ h4 {
 }
 
 /* SHORT STORY */
-
+.short-story {
+  margin-bottom: var(--spacing-06);
+}
 
 /* ESTILO MUSICAL */
 
