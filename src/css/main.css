@@ -41,7 +41,7 @@ html {
   width: 100%;
   min-height: 100vh;
   align-items: center;
-  background-image: url(../src/images/inicio_mobile.jpg);
+  background-image: url(../images/inicio_mobile.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,30 +62,31 @@ html {
   color: var(--tertiary-color);
 }
 
-/* BODY INTEGRANTES */
-main {
-  padding: var(--spacing-07) var(--spacing-05) 0;
-  background-color: var(--secondary-color);
-}
-
 /* TITLES */
 
 h1, h2, h3, h4 {
   font-family: var(--font-two);
+  font-weight: 600;
   text-align: center;
   color: #000000;
 }
 h2 {
   margin: 0 0 var(--spacing-07); /* elimina todos los margin y agrega un margin bottom */
   font-size: var(--spacing-06);
-  font-weight: 600;
   line-height: 38px;
+}
+
+h3 {
+  margin: 0 0 var(--spacing-06); /* elimina todos los margin y agrega un margin bottom */
+  padding-left: var(--spacing-06);
+  font-size: var(--spacing-05);
+  line-height: 28px;
+  text-align: start;
 }
 
 h4 {
   margin: 0 0 var(--spacing-05); /* elimina todos los margin y agrega un margin bottom */
   font-size: 20px;
-  font-weight: 600;
   line-height: var(--spacing-05);
   text-align: start;
 }
@@ -98,18 +99,43 @@ h4 {
   border-radius: 50%;
 }
 
-.img {
+.img-figure {
+  margin: var(--spacing-05) 0;
   text-align: center;
 }
 
-.img img {
-  width: 222px;
-  height: 222px;
-  margin-bottom: var(--spacing-07);
+.img--square img {
+  max-width: 333px;
+  width: 75%;
   border-radius: 15px;
 }
 
+.img--mid-rectangle img {
+  width: 70%;
+  max-width: 330px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.img--rectangle img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+.img--out {
+  margin: 0;
+}
+
+.img--end {
+  margin-bottom: 0;
+}
 /* MEMBERS */
+.members {
+  padding: var(--spacing-07) var(--spacing-05);
+  background-color: var(--secondary-color);
+}
+
 .members__person {
   margin: 0 auto;
   margin-bottom: var(--spacing-06);
@@ -121,6 +147,31 @@ h4 {
   grid-template-columns: 116px 1fr;
   margin-bottom: var(--spacing-05);
 }
+
+/* CARRERA ARTISTICAS */
+.carrera-artistica {
+  padding: var(--spacing-07) var(--spacing-05);
+  background-color: var(--tertiary-color);
+}
+
+.carrera-artistica > div {
+  width: 100%;
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+/* SHORT STORY */
+.short-story {
+  margin-bottom: var(--spacing-06);
+}
+
+/* ESTILO MUSICAL */
+.estilo-musical {
+  margin-bottom: var(--spacing-06);
+}
+
+/* ABOUT THE BAND */
+
 
 /* FOOTER */
 footer {
@@ -155,6 +206,10 @@ footer .profile a {
   color: #FFFFFF;
 }
 
+.social-networks p {
+  margin-bottom: var(--spacing-04);
+}
+
 .icon {
   display: inline-block;
   width: var(--spacing-06);
@@ -165,20 +220,20 @@ footer .profile a {
 }
 
 .icon--twitter {
-  background-image: url(../src/icons/icon-twitter.svg);
+  background-image: url(../icons/icon-twitter.svg);
 }
 
 .icon--github {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-github.svg);
+  background-image: url(../icons/icon-github.svg);
 }
 
 .icon--linkedin {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-linkedin.svg);
+  background-image: url(../icons/icon-linkedin.svg);
 }
 
 .icon--discord {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-discord.svg);
+  background-image: url(../icons/icon-discord.svg);
 }
