@@ -154,6 +154,12 @@ h4 {
   background-color: var(--tertiary-color);
 }
 
+.carrera-artistica > div {
+  width: 100%;
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
 /* SHORT STORY */
 .short-story {
   margin-bottom: var(--spacing-06);
