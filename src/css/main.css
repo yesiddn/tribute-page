@@ -220,20 +220,20 @@ footer .profile a {
 }
 
 .icon--twitter {
-  background-image: url(../src/icons/icon-twitter.svg);
+  background-image: url(../icons/icon-twitter.svg);
 }
 
 .icon--github {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-github.svg);
+  background-image: url(../icons/icon-github.svg);
 }
 
 .icon--linkedin {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-linkedin.svg);
+  background-image: url(../icons/icon-linkedin.svg);
 }
 
 .icon--discord {
   margin-left: var(--spacing-03);
-  background-image: url(../src/icons/icon-discord.svg);
+  background-image: url(../icons/icon-discord.svg);
 }
